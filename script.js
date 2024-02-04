@@ -21,6 +21,9 @@ const initial = function () {
   document.getElementById('score--1').textContent = 0;
   document.querySelector('.player--0').classList.remove('player--winner');
   document.querySelector('.player--1').classList.remove('player--winner');
+  Cscore.textContent=0;
+  Cscore1.textContent=0;
+
   dicel.classList.add('hidden');
   activePlayer = 0;
   currentscore = 0;
